@@ -1,5 +1,5 @@
 <?php
-
+/*
 /*inside all Loops each iteration Variable ki Value ko original pe reset krta deta hai(No effect i++,i--)*/
 // Example: Star Pattern with foreach loop.
 /* $a = range(1,5);
@@ -97,10 +97,29 @@ elseif($Booking_Type['room_type'] == 'Super_Delux'){
 else{
     echo 'Super_rate_increase is 5% <br>';
 }
-}
-
+}*/
+// Class Example 
 echo "Alpha";
 echo "brown";
+
+$a = ['a'=>1
+    ,'b'=>2];
+$b = ['a'=>1];
+if($a['a'] == $b['a'] && !$a['b'] || !$b['b']){
+    echo 'Equal';
+
+}
+else{
+    'Not Equal';
+}
+
+
+
+
+
+
+
+
 
 
 
