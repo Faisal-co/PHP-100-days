@@ -11,6 +11,7 @@ function subtract($a) {
 }
 $x = subtract([1,3,5,6,66,8,9,11,13,44]);
 echo $x;
+echo "<br>";
 // Example 2:
 
 function grade($marks) {
@@ -21,7 +22,7 @@ function grade($marks) {
     } elseif ($marks >= 40) {
         return "Grade: C";
     } else {
-        return "Fail";
+        return "fail";
     }
 }
 
