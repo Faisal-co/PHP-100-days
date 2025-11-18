@@ -24,11 +24,11 @@ function grade($marks) {
         return "Fail";
     }
 }
+
 echo grade(85); 
 echo "<br>"; 
-echo "<br>";
+echo "now lowest marks";
 echo grade(3);
-
 
 
 
