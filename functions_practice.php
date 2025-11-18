@@ -27,7 +27,8 @@ function grade($marks) {
 echo grade(85); 
 echo "<br>";
 echo grade(55);  
-
+echo "<br>";
+echo grade(30);
 
 
 
