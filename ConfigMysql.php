@@ -19,7 +19,7 @@ $sql = "CREATE TABLE IF NOT EXISTS fa_Table (
 )";
 try {
     $conn->exec($sql);   // Execute the query
-    echo "Table 'fa' created successfully!";
+    echo "From github update created successfully!";
 } catch(PDOException $err) {
     echo "Error creating table: " . $err->getMessage();
 }
