@@ -26,7 +26,11 @@ while ($i < count($fruits)) {
     echo $fruits[$i] . "<br>";
     $i++;
 }
-
+// Print each letter of string
+$name = "Faisal Siraj";
+for($a = 0; $a < strlen($name); $a++){
+    echo $name[$a]."<br>";
+}
 
 
 ?>
