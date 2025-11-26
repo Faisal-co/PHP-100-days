@@ -1,4 +1,5 @@
 <?php
+// Built in heigher order functions are, filter,map, reduce.
 // Define a function that accepts a user-defined callback to display a greeting message.
 function showMessage($callback) {
     // Call the user-defined function
