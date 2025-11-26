@@ -44,10 +44,20 @@ function callUser($callback) {
 // Pass 'greet' as callback (no parentheses!)
 callUser('greet'); */
 // Simple function:
-function subtract($a) {
+function odd($a) {
   foreach($a as $num){
     if($num % 2 !==0){
       return "odd number $num <br>";// Yahan return 1 kion de raha hai.
+    }
+  }
+}
+$v = subtract([1,3,5,6,66,8,9,11,13,44]);
+echo $v;
+// even numbers
+function even($a) {
+  foreach($a as $num){
+    if($num % 2 ==0){
+      return "even number $num <br>";// Yahan return 1 kion de raha hai.
     }
   }
 }
